@@ -4,5 +4,5 @@ class HomePageController {
 
     def index() {}
 	
-	def someotherpage() {} 
+	def someotherpage() {"test"} 
 }
