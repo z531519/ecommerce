@@ -1,4 +1,4 @@
-package com.blacklinuxdude.ecom.domain
+package com.blacklinuxdude.ecom.domain.product
 
 class Product {
 	static searchable = true
@@ -7,6 +7,6 @@ class Product {
 		String id		
     }
 	String description
-
-	static hasMany = [prices : Price]
+	double price
+	static hasMany = [variants : Variant]
 }

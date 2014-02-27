@@ -1,4 +1,4 @@
-<%@page import="com.blacklinuxdude.ecom.domain.Product"%>
+<%@page import="com.blacklinuxdude.ecom.domain.product.Product"%>
 <%@ page defaultCodec="html" %>
 <%@ page import="org.springframework.util.ClassUtils" %>
 <%@ page import="grails.plugin.searchable.internal.lucene.LuceneUtils" %>
